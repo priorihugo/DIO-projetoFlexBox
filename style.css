@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .flex-conteiner{
     display: flex;
 }
 .header{
+    color: cornsilk;
     display: flex;
     background-color: #1c4488;
     justify-content: space-between;
@@ -15,12 +17,14 @@
     margin: 14px 0px 14px 28px;
 }
 .menu {
+    min-width: 320px;
     margin-right: 14px;
+    margin-left: 14px;
     align-items: center;
     list-style: none;
-
 }
 .menu li a{
+    color: cornsilk;
     text-decoration: none;
     margin: 14px
 }
