@@ -28,3 +28,23 @@
     text-decoration: none;
     margin: 14px
 }
+.apresentacao-1{
+    margin-left: 22px;
+    color: #1c4488;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.botao{
+    margin-top: 7px;
+    text-align: center;
+    display: block;
+    color: cornsilk;
+    background-color: #1c4488;
+    border-radius: 4px;
+}
+.img{
+    max-width:100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
