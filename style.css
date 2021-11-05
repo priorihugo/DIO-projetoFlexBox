@@ -30,11 +30,11 @@
     margin: 14px
 }
 .apresentacao-1{
+    height: 100%;
     margin-left: 22px;
     color: #1c4488;
     justify-content: space-evenly;
     align-items: center;
-    flex-shrink: 2;
 }
 .apresentacao-2{
     margin-right: 22px;
@@ -44,18 +44,37 @@
 }
 .botao{
     margin-top: 7px;
+    padding: 11px;
     text-align: center;
     display: block;
     color: cornsilk;
     background-color: #1c4488;
-    border-radius: 4px;
+    border-radius: 7px;
 }
 .img{
     max-width: 45vw;
+    min-width: 40vw;
     width: auto;
     height: auto;
     display: block;
 }
 .texto{
-    max-width: 45vh;
+    max-width: 45vw;
+}
+.conteiner-bottom{
+    padding: 22px;
+    color: cornsilk;
+    flex-direction: column;
+    background-color: #1c4488 ;
+}
+.lista-servicos{
+    text-align: center;
+    padding-top: 28px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lista-servicos a{
+    text-decoration: none;
+    color: #1c4488;
+    background-color: cornsilk;
 }
